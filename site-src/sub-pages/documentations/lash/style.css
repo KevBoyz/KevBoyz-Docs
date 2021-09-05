@@ -24,7 +24,7 @@ header {
     flex-wrap: wrap;
     background: rgb(25, 25, 25); 
     padding: 4px;
-    margin: 0 0 10px 0;
+    margin: 0;
 }
 
 #main-title {
@@ -57,7 +57,7 @@ header {
     display: flex;
     width: 100%;
     text-align: center;
-    margin: 10px 0 0 0;
+    margin: 0px 0 0 0;
 }
 
 #main-content img {
@@ -66,18 +66,70 @@ header {
 
 #main-content p {
     font-size:1.1em;
-    margin: 0 0 15px 0;
+    margin: 0 0 13px 0;
+    color:#dbdbdb;
+    line-height: 24px;
+}
+
+#main-content h2 {
+    width:100%;
+    margin: 0 0 10px 0;
     color:#dbdbdb;
 }
 
-#main-content span {
-    margin: 0 0 20px 43px;
+#main-content h3 {
+    width:100%;
+    margin: 0 0 10px 0;
+    color:#dbdbdb;
 }
 
-#LOL {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
-    width: 30%;
+#main-content h4 {
+    width:100%;
+    margin: 0 0 10px 0;
+    color:#dbdbdb;
+}
+
+#main-content ol {
+    width:100%;
+    margin: 0 0 5px 0;
+    color:#dbdbdb;
+}
+
+#main-content ol :nth-child(1) {
+    margin: 0 0 15px 0;
+}
+#main-content ol :nth-child(2) {
+    margin: 0 0 10px 0;
+}
+
+
+#main-content li {
+    font-size:1.1em;
+    width:100%;
+    color:#dbdbdb;
+}
+
+#main-content a {
+    color:rgba(2, 183, 255, 0.897);
+    text-decoration: none;
+}
+
+#main-content .command {
+    display: inline;
+    padding: 7px 7px 7px 7px;
+    background: rgb(23, 23, 24);
+    color: #ffffff;
+    border-radius: 10px;
+    font-style: oblique;
+}
+
+#main-content .em {color: #10d310e1;}
+#main-content .emb {color: #ff000085;}
+
+#main-content #info {
+    margin: 0 0 15px 43px;
+}
+
+#lowtext {
+    margin:0 0 10px 0;
 }

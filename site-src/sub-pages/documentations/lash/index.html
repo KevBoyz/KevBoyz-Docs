@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lash documentation</title>
+</head>
+<body>
+    <p id="description">
+        This site was developed by 
+        <a href="https://github.com/KevBoyz", target="_blank">&copy;KevBoyz</a> ~ 
+        Solo programming student
+    </p>
+    <header>
+        <h1 id="main-title"><a href="#">🧾KevBoyz Docs</a></h1>
+    </header>
+    <main>
+        <div id="content">
+            <div id="main-content">
+                <h1>🛠 Lash Documentation v1.1.1 - Python package</h1>
+                <span id="info">written in 04/09/21 by <a href="https://github.com/KevBoyz">KevBoyz</a></span>
+                <img src="./img/lash-help.png" alt="software image">
+                <p>
+                    <span class="em">Lash</span> is a cli package developed in Python, he  provides 
+                    a set of desktop tools that simplify and automate
+                    repetitive processes. Lash also has utility functions
+                    that cover some needs of desktop users, 
+                    like files encryptation or keylogger. 
+                    Lash is actually available on  <a href="">Pypi</a> and <a href="">Github</a>.
+                </p>
+                <p>
+                    The tool have all commands documenteted with auto-help sections
+                    that can be viewd using the --help option, this article shows 
+                    more datails and usages for commands.
+                </p>
+                <h2>How install and execute</h2>
+                <p>
+                    You need to have Python3.5 > and pip installed in your machine, 
+                    you can installed on <a href="https://www.python.org/">python.org</a>,
+                    after that, follow the steps below:
+                </p>
+                <ol>
+                    <li>Open your terminal and type <span class="command">pip install lash</span></li>
+                    <li>If the installation works, type: <span class="command">python -m lash</span></li>
+                </ol>
+                <p>
+                    * In <span class="em">Linux systems</span>, it's possible that this process will fail,
+                    I really couldn't resolve the <span class="emb">error: beep.wav don't exists or not a regular file</span> , but in <span class="em">Windows</span>, still working.
+                </p>
+                <p>
+                    <span class="em">Lash</span> usage syntax is: <span class="command"> "lash commands options args</span>, 
+                    many commands heve sub-commands in the same content, in this case, you need type the main command and the sub, sequencialy.
+                </p>
+                <h2>Commands usage, use as reference if you need.</h2>
+                <ol>
+                    <li>
+                        <h3>autoclick</h3>
+                        <p> <span class="emb">- Command not working, cause: Bug. Working on 1.0.0</span></p>
+                        <p>
+                            Perform autoclicker to fast cliking or continuos click. You can set the click
+                            delay using the -cd (value in seconds) option be like: <span class="em">-cd 0.1</span> -> 10cps or if 
+                            you want click and hold just use the <span class="em">-ch</span> option, if you don't use any option
+                            the command will return a raise error. Finally use f4/f3  as shortcut keys to on/off. Note,
+                            this feature don't works much better consider clicking f3 several times to stop.
+                        </p> 
+                    </li>
+                    <li>
+                        <h3>calc</h3>
+                        <p>
+                            Math utility pack, actually has no options and only sub-command that is prob.
+                        </p>
+                        <ol>
+                            <li>
+                                <h4>prob</h4>
+                                <p>
+                                    Calcule probability. Two arguments needed: possible_cases and favorable cases, the
+                                    result can be viewd in percentage or floating number (more precise) with -d option. Example: 
+                                    <span class="em">calc prob 10 1</span> -> 10% or 0.1 if -d.
+                                </p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>keyhold</h3>
+                        <p>
+                            Hold a keyboard key with virtual input. Just specify the key, the command break if any key pressed.
+                            <span class="em">keyhold w</span>, after enter command press f4 to start. This command has maked as 
+                            complement for click and hold function, is the perfect combination to auto mine in Minecraf (game).
+                        </p>
+                    </li>
+                    <li>
+                        <h3>organize</h3>
+                        <p>
+                            Organize files quickly. the basic command need the path at be organized, by default he's organized 
+                            documents and 'others files'. You also have the option to organize sub-folders and midias with options
+                            specified in --help section. It's possible organize specified file type with -ft option. Command usage example: 
+                            <span class="em">lash organize -ft .pdf C:\Users\User\Downloads</span>.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>random</h3>
+                        <p>
+                            Randomize decimal numbers, you can set in options: beginning and end of random set (1-5) and number
+                            of output characters. <span class="em">random -s 0 -e 1 -c 10</span> -> 0100010010.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>sched</h3>
+                        <p></p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        
+    </main>
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
