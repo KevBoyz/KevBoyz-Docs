@@ -48,6 +48,8 @@
                 <p>
                     * In <span class="em">Linux systems</span>, it's possible that this process will fail,
                     I really couldn't resolve the <span class="emb">error: beep.wav don't exists or not a regular file</span> , but in <span class="em">Windows</span>, still working.
+                    If this error persists, download the desired version from the <a href="https://github.com/KevBoyz/Lash/releases">github repository</a> as zip or tar.gz and modify setup.py, removing the inclusion of the
+                    beep.wav and web_package.zip files, after that run the command <span class="em">setup.py install</span>, everything should work normally, but the command <span class="em">web new</span> will be crashed.
                 </p>
                 <p>
                     <span class="em">Lash</span> usage syntax is: <span class="command"> "lash commands options args</span>, 
@@ -108,12 +110,118 @@
                     </li>
                     <li>
                         <h3>sched</h3>
-                        <p></p>
+                        <p>
+                            My favorite command at lash, with this you can schedule tasks in your computer.
+                            Sched have 3 sub-commands but all have the same purpose, after a time intervall, 
+                            one command will be executed on terminal.
+                        </p>
+                        <ol>
+                            <li>
+                                <h4>run</h4>
+                                <p>
+                                    Run commands repetitively at a given interval starting from current machine time.
+                                    Interesting to perform the same task every 5 minutes or seconds, like
+                                    for example an update. <span class="em">sched run</span> must receive the command
+                                    to be executed in quotes after the declaration of the waiting time (h/m/s). Example:
+                                    <span class="em">run "help" 0 0 2</span>.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>wait</h4>
+                                <p>
+                                    Wait x time, run a task once and exit. Ideal for carrying out a waiting task,
+                                    how to run an alarm or anything else, its usage mode is the same as
+                                    <span class="em">run</span>, however it has an extra feature, the remaining time
+                                    is written in the terminal that is relative to the remaining hours, minutes and seconds.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>exec</h4>
+                                <p>
+                                    Execute a task from determined moment of day. If you need be more specific,
+                                    this command will help you. Like the other sched subcommands, exec uses the 
+                                    machine's own time. To use you need set the time like a clock display: hh:mm:ss. 
+                                    Example: <span class="em">exec 10:30:0 "help"</span>
+                                </p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>spy</h3>
+                        <p>
+                            Gray Hat Tool Kit, use for espionage, theft or protection.
+                        </p>
+                        <ol>
+                            <li>
+                                <h4>keylogger</h4>
+                                <p>
+                                    Save all keyboard actions in .txt file, for use declare the exit location of the
+                                    final file, if not declared, will be sent to the current folder of the
+                                    terminal. Once active, it can be disabled by pressing <span class="em">f3</span>
+                                </p>
+                            </li>
+                            <li>
+                                <h4>crypt</h4>
+                                <p>
+                                    Encrypt files with the AES algorithm, be careful when using, you will need a 
+                                    16-character key to encrypt and decrypt the file (-dc option to decrypt).
+                                    Example: <span class="em">crypt text.txt $ycjms1@7y602qkx</span>.
+                                </p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h4>Taskkiller</h4>
+                        <p>
+                           This command is interesting if you want to boost your machine, with it you can kill
+                           multiple processes just by running  <span class="em">lash taskkiller</span>. Note <span class="emb">permission errors</span> can occur
+                           while programs are closed. To use this command you must first blacklist the processes
+                           so they can all be killed at once. It is necessary to go to the package's installation
+                           folder, which in my case is:  <span class="em">C:\Users\User\AppData\Local\Programs\Python\Python39\Lib\site-packages\lash</span>
+                           and then go through the following path: <span class="em">lash/Exportables</span>
+                           and open the <span class="em">config.py</span>  file. Once this is done, the names must be put in the <span class="em">black_list</span>
+                           variable, surrounded by quotation marks and separated by a comma.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>web</h3>
+                        <p>Toolkit for web, I don't have ideas for subcommands, but the one that I make is really userfull</p>
+                        <ol>
+                            <li>
+                                <h4>new</h4>
+                                <p>
+                                    Start new web project, this command creates html, css and js files to quickly start your site.
+                                    The usage is simple, declare the path to extract the files.
+                                </p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>zip</h3>
+                        <p>Zip tools, one of the first commands I did</p>
+                        <ol>
+                            <li>
+                                <h4>compress</h4>
+                                <p>
+                                    Compress files into zip file. Declare the folder to be zipped, this command is the coolest 
+                                    that you can find in this package.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>extract</h4>
+                                <p>
+                                    Extract a zip file, simple as that, I don't think I need to tell you what you should 
+                                    do to use this command, but if in doubt use --help.
+                                </p>
+                            </li>
+                        </ol>
                     </li>
                 </ol>
+                <h2>Conclusion</h2>
+                <p>First, thanks to read this, I hope I helped you, second, you can help me? 
+                   If you want to improve the site, i will be very grateful, goodbye.<p>
             </div>
         </div>
-        
     </main>
     <footer></footer>
 

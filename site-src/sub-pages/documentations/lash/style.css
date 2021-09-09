@@ -1,7 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: rgb(36, 36, 35);
+    background-color: rgb(36, 36, 36);
 }
 
 #description {
@@ -79,6 +79,7 @@ header {
 
 #main-content h3 {
     width:100%;
+    font-size: 1.3em;
     margin: 0 0 10px 0;
     color:#dbdbdb;
 }
@@ -110,7 +111,7 @@ header {
 }
 
 #main-content a {
-    color:rgba(2, 183, 255, 0.897);
+    color:rgb(61, 152, 255);
     text-decoration: none;
 }
 

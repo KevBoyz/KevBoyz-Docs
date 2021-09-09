@@ -85,6 +85,12 @@ header {
 .box h2 {
     text-align: center;
     font-size: 1.7em;
+    margin-bottom: 180px;
+}
+
+.box p {
+    text-align: left;
+    padding: 5px;
 }
 
 #divisor {
@@ -92,3 +98,4 @@ header {
     height: 1px;
     width: 100%;
 }
+
