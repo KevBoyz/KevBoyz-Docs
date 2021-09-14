@@ -5,7 +5,7 @@
 }
 
 #description {
-    background: rgb(25, 25, 25);
+    background: #191919;
     letter-spacing: 12px;
     text-align: center;
     font-weight: 100;
@@ -13,7 +13,7 @@
     margin: 0 0 5px 0;
 }
 #description a {
-    background: rgb(25, 25, 25);
+    background: transparent;
     color: rgb(43, 149, 248);
     text-decoration: none;
 }
@@ -22,13 +22,13 @@ header {
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    background: rgb(25, 25, 25); 
+    background: #191919; 
     padding: 4px;
     margin: 0 0 10px 0;
 }
 
 #main-title {
-    background: rgb(25, 25, 25); 
+    background: transparent; 
     margin: 0px 0px 0px 10px;
     font-size: 3em;
     padding: 10px;
@@ -36,7 +36,7 @@ header {
 }
 
 #main-title a {
-    background: rgb(25, 25, 25);
+    background: transparent;
     color: white;
     text-decoration: none;
 
@@ -45,36 +45,39 @@ header {
 #content {
     display: flex;
     flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 20px;
 }
 
 #content a {
     text-decoration: none;
 }
 
+
 #main-content {
     margin-left: 600px;
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
-    margin: 0 0 0 50px;
+    width: 40%;
+    margin: 0 20px 0 70px;
 }
 
 #sub-content {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    margin: 0 0px 0 0;
 }
 
 .content-box {
     width: 500px;
     height: 300px;
-    border: white solid 1px;
+    border: 1px dashed #ffffff63;
+    margin: 5px 0 10px 0;
 }
 
 .box {
     margin: 5px 10px 10px 5px;
-    border: 1px solid white;
+    border: 1px dashed #ffffff63;
     border-radius: 20px;
     height: 300px;
     width: 300px;
@@ -82,7 +85,7 @@ header {
 .box h2 {
     text-align: center;
     font-size: 1.7em;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     margin-top: 20px;
     background: transparent;
 }
@@ -103,6 +106,4 @@ header {
    background-image: url(../images/lash.png);
    background-position: center;
    background-size: contain;
-
 }
-
