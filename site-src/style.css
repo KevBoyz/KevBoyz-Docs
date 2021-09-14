@@ -42,15 +42,6 @@ header {
 
 }
 
-#pin-description {
-    display: flex;
-    align-self: center;
-    color:#dddddd;
-    font-size: 15px;
-    margin: 0 0 0 35px;
-    
-}
-
 #content {
     display: flex;
     flex-wrap: nowrap;
@@ -85,17 +76,27 @@ header {
 .box h2 {
     text-align: center;
     font-size: 1.7em;
-    margin-bottom: 180px;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    background: transparent;
 }
 
 .box p {
     text-align: left;
     padding: 5px;
+    background: transparent;
 }
 
 #divisor {
     border-bottom: 1px dashed rgb(233, 233, 233);
     height: 1px;
     width: 100%;
+}
+
+#Lash-dcs {
+   background-image: url(../images/lash.png);
+   background-position: center;
+   background-size: contain;
+
 }
 
