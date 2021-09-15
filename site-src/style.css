@@ -77,7 +77,7 @@ header {
     width: 100%;
 }
 .content-box #text div {
-    background-color: transparent;
+    background-color: #0000009d;
     width:40%;
     padding: 10px;
 }
