@@ -66,19 +66,50 @@ header {
     height: 300px;
     border: 1px dashed #ffffff63;
     margin: 5px 20px 10px 0;
-    text-align: right;
+    text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000;
+    border-radius: 10px;
 }
-.content-box p {
-    display: inline-block;
-    width: 50%;
-    margin: 0px 0 0 0;
+.content-box #text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 100%;
 }
-.content-box h2 {
-    display: inline;
+.content-box #text div {
+    background-color: transparent;
+    width:40%;
+    padding: 10px;
+}
+.content-box #text div h3{
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 10px ;
+}
+.content-box #info {
+    width:100%;
+    text-align:right;
+    background-color: transparent;
+    padding-left: 70%;
+}
+.content-box p{
+    width: 100%;
     margin: 0;
-    font-size: 2em;
 }
-
+.content-box h3{
+    width: 45%;
+    margin: 0;
+}
+.content-box #title {
+    height:10px;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 10px 0 10px ;
+    font-size: 1.4em;
+    margin:0 0 70px 0;
+}
+.content-box #title h2 {margin:0; padding: 0 14px 10px; letter-spacing: 1px;}
 .box {
     margin: 5px 10px 10px 5px;
     border: 1px dashed #ffffff63;
@@ -110,3 +141,9 @@ header {
    background-size: contain;
 }
 
+#howbeahacker {
+    background-image: url(./sub-pages/articles/How\ be\ a\ hacker/img/hacker.jpg);
+    background-size:contain;
+}
+#howbeahacker p {background:transparent;}
+#howbeahacker h2 {background:transparent;}
