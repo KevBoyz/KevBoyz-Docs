@@ -91,7 +91,7 @@ header {
     width:100%;
     text-align:right;
     background-color: transparent;
-    padding-left: 70%;
+    padding-left: 52%;
 }
 .content-box p{
     width: 100%;
@@ -143,7 +143,7 @@ header {
 
 #howbeahacker {
     background-image: url(./sub-pages/articles/How\ be\ a\ hacker/img/hacker.jpg);
-    background-size:contain;
+    background-size:400px 400px;
 }
 #howbeahacker p {background:transparent;}
 #howbeahacker h2 {background:transparent;}
