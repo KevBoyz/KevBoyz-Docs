@@ -1,0 +1,137 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+#description {
+    background: rgb(25, 25, 25);
+    letter-spacing: 12px;
+    text-align: center;
+    font-weight: 100;
+    padding: 5px;
+    margin: 0 0 5px 0;
+}
+#description a {
+    background: rgb(25, 25, 25);
+    color: rgb(43, 149, 248);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background: rgb(25, 25, 25); 
+    padding: 4px;
+    margin: 0;
+}
+
+#main-title {
+    background: rgb(25, 25, 25); 
+    margin: 0px 0px 0px 10px;
+    font-size: 3em;
+    padding: 10px;
+    /* border: 1px solid; */
+}
+
+#main-title a {
+    background: rgb(25, 25, 25);
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+    display: flex;
+}
+
+#main-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 56%;
+    padding: 10px;
+    margin: 0 0 0 80px;
+}
+
+#main-content h1 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0 0 0;
+}
+
+#main-content img {
+    margin-bottom: 17px;
+}
+
+#main-content p {
+    font-size:1.1em;
+    margin: 0 0 13px 0;
+    color:#dbdbdb;
+    line-height: 24px;
+}
+
+#main-content h2 {
+    width:100%;
+    margin: 0 0 10px 0;
+    color:#dbdbdb;
+}
+
+#main-content h3 {
+    width:100%;
+    font-size: 1.3em;
+    margin: 0 0 10px 0;
+    color:#dbdbdb;
+}
+
+#main-content h4 {
+    width:100%;
+    margin: 0 0 10px 0;
+    color:#dbdbdb;
+}
+
+#main-content ol {
+    width:100%;
+    margin: 0 0 5px 0;
+    color:#dbdbdb;
+}
+
+#main-content ol :nth-child(1) {
+    margin: 0 0 15px 0;
+}
+#main-content ol :nth-child(2) {
+    margin: 0 0 10px 0;
+}
+
+
+#main-content li {
+    font-size:1.1em;
+    width:100%;
+    color:#dbdbdb;
+}
+
+#main-content a {
+    color:rgb(61, 152, 255);
+    text-decoration: none;
+}
+
+#main-content .command {
+    display: inline;
+    padding: 7px 7px 7px 7px;
+    background: rgb(23, 23, 24);
+    color: #ffffff;
+    border-radius: 10px;
+    font-style: oblique;
+}
+
+#main-content .em {color: #10d310e1;}
+#main-content .emb {color: #ff000085;}
+
+#main-content #info {
+    margin: 0 0 15px 43px;
+}
+
+#lowtext {
+    margin:0 0 10px 0;
+}
+
