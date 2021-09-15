@@ -12,7 +12,7 @@
     padding: 5px;
     margin: 0 0 5px 0;
 }
-#description a {
+a {
     background: transparent;
     color: rgb(43, 149, 248);
     text-decoration: none;
@@ -32,7 +32,6 @@ header {
     margin: 0px 0px 0px 10px;
     font-size: 3em;
     padding: 10px;
-    /* border: 1px solid; */
 }
 
 #main-title a {
@@ -48,17 +47,11 @@ header {
     width: 100%;
     margin-top: 20px;
 }
-
-#content a {
-    text-decoration: none;
-}
-
-
 #main-content {
     margin-left: 600px;
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
+    width: 41%;
     margin: 0 20px 0 70px;
 }
 
@@ -69,10 +62,21 @@ header {
 }
 
 .content-box {
-    width: 500px;
+    width: 600px;
     height: 300px;
     border: 1px dashed #ffffff63;
-    margin: 5px 0 10px 0;
+    margin: 5px 20px 10px 0;
+    text-align: right;
+}
+.content-box p {
+    display: inline-block;
+    width: 50%;
+    margin: 0px 0 0 0;
+}
+.content-box h2 {
+    display: inline;
+    margin: 0;
+    font-size: 2em;
 }
 
 .box {
@@ -89,13 +93,11 @@ header {
     margin-top: 20px;
     background: transparent;
 }
-
 .box p {
     text-align: left;
     padding: 5px;
     background: transparent;
 }
-
 #divisor {
     border-bottom: 1px dashed rgb(233, 233, 233);
     height: 1px;
@@ -107,3 +109,4 @@ header {
    background-position: center;
    background-size: contain;
 }
+
