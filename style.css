@@ -3,7 +3,6 @@
     color: white;
     background-color: rgb(36, 36, 35);
 }
-
 #description {
     background: #191919;
     letter-spacing: 12px;
@@ -17,7 +16,6 @@ a {
     color: rgb(43, 149, 248);
     text-decoration: none;
 }
-
 header {
     display: flex;
     align-items: baseline;
@@ -26,21 +24,17 @@ header {
     padding: 4px;
     margin: 0 0 10px 0;
 }
-
 #main-title {
     background: transparent; 
     margin: 0px 0px 0px 10px;
     font-size: 3em;
     padding: 10px;
 }
-
 #main-title a {
     background: transparent;
     color: white;
     text-decoration: none;
-
 }
-
 #content {
     display: flex;
     flex-wrap: nowrap;
@@ -54,13 +48,11 @@ header {
     width: 41%;
     margin: 0 20px 0 70px;
 }
-
 #sub-content {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
 }
-
 .content-box {
     width: 600px;
     height: 300px;
@@ -134,13 +126,11 @@ header {
     height: 1px;
     width: 100%;
 }
-
 #Lash-dcs {
    background-image: url(../images/lash.png);
    background-position: center;
    background-size: contain;
 }
-
 #howbeahacker {
     background-image: url(./sub-pages/articles/How\ be\ a\ hacker/img/hacker.jpg);
     background-size:400px 400px;
