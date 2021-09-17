@@ -43,7 +43,7 @@ header {
 }
 #main-content {
     width: 41%;
-    margin: 0 620px 0 70px;
+    margin: 0 20px 0 70px;
     display: flex;
     flex-wrap: wrap;
 }
