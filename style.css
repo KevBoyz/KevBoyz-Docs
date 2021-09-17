@@ -5,11 +5,11 @@
 }
 #description {
     background: #191919;
-    letter-spacing: 12px;
-    text-align: center;
-    font-weight: 100;
     padding: 5px;
     margin: 0 0 5px 0;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 12px;    
 }
 a {
     background: transparent;
@@ -17,18 +17,18 @@ a {
     text-decoration: none;
 }
 header {
-    display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
     background: #191919; 
     padding: 4px;
     margin: 0 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 #main-title {
     background: transparent; 
     margin: 0px 0px 0px 10px;
-    font-size: 3em;
     padding: 10px;
+    font-size: 3em;
 }
 #main-title a {
     background: transparent;
@@ -36,37 +36,37 @@ header {
     text-decoration: none;
 }
 #content {
-    display: flex;
-    flex-wrap: nowrap;
     width: 100%;
     margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 #main-content {
-    margin-left: 600px;
+    width: 41%;
+    margin: 0 620px 0 70px;
     display: flex;
     flex-wrap: wrap;
-    width: 41%;
-    margin: 0 20px 0 70px;
 }
 #sub-content {
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
 }
 .content-box {
     width: 600px;
     height: 300px;
-    border: 1px dashed #ffffff63;
     margin: 5px 20px 10px 0;
-    text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000;
+    border: 1px dashed #ffffff63;
     border-radius: 10px;
+    text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000;
 }
 .content-box #text{
+    background-color: transparent;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: transparent;
-    width: 100%;
+    
 }
 .content-box #text div {
     background-color: #0000009d;
@@ -76,14 +76,14 @@ header {
 .content-box #text div h3{
     background-color: transparent;
     width: 100%;
+    padding-left: 10px;
     margin-bottom: 5px;
-    padding-left: 10px ;
 }
 .content-box #info {
-    width:100%;
-    text-align:right;
     background-color: transparent;
+    width:100%;
     padding-left: 52%;
+    text-align:right;
 }
 .content-box p{
     width: 100%;
@@ -94,46 +94,46 @@ header {
     margin: 0;
 }
 .content-box #title {
-    height:10px;
     background-color: transparent;
     width: 100%;
-    padding: 10px 10px 0 10px ;
-    font-size: 1.4em;
+    height:10px;
+    padding: 10px 10px 0 10px;
     margin:0 0 70px 0;
+    font-size: 1.4em;
+    
 }
 .content-box #title h2 {margin:0; padding: 0 14px 10px; letter-spacing: 1px;}
 .box {
+    width: 300px;
+    height: 300px;
     margin: 5px 10px 10px 5px;
     border: 1px dashed #ffffff63;
     border-radius: 20px;
-    height: 300px;
-    width: 300px;
 }
 .box h2 {
-    text-align: center;
-    font-size: 1.7em;
+    background: transparent;
     margin-bottom: 120px;
     margin-top: 20px;
-    background: transparent;
+    text-align: center;
+    font-size: 1.7em;
 }
 .box p {
-    text-align: left;
-    padding: 5px;
     background: transparent;
+    padding: 5px;
+    text-align: left;
 }
 #divisor {
-    border-bottom: 1px dashed rgb(233, 233, 233);
-    height: 1px;
     width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed rgb(233, 233, 233);
 }
 #Lash-dcs {
-   background-image: url(../images/lash.png);
-   background-position: center;
-   background-size: contain;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/lash.png);
 }
 #howbeahacker {
-    background-image: url(./sub-pages/articles/How\ be\ a\ hacker/img/hacker.jpg);
     background-size:400px 400px;
+    background-image: url(./sub-pages/articles/How\ be\ a\ hacker/img/hacker.jpg);
 }
-#howbeahacker p {background:transparent;}
-#howbeahacker h2 {background:transparent;}
+#howbeahacker p, h2 {background:transparent;}
