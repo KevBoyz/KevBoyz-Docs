@@ -101,7 +101,6 @@ header {
     padding: 10px 10px 0 10px;
     margin:0 0 70px 0;
     font-size: 1.4em;
-    
 }
 .content-box #title h2 {margin:0; padding: 0 14px 10px; letter-spacing: 1px;}
 .box {
@@ -142,3 +141,7 @@ header {
     background-size: contain;
 }
 #howwebworks h2 {text-align: center;}
+#whatiuse{
+    background-image: url(./images/tech-wrld.png);
+    background-size: initial;
+}
