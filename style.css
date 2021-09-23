@@ -127,10 +127,10 @@ header {
     height: 1px;
     border-bottom: 1px dashed rgb(233, 233, 233);
 }
-#Lash-dcs {
+#lashdcs {
     background-position: center;
     background-size: contain;
-    background-image: url(../images/lash.png);
+    background-image: url(./images/lash.png);
 }
 #howbeahacker {
     background-size:400px 400px;
