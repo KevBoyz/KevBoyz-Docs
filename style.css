@@ -145,3 +145,8 @@ header {
     background-image: url(./images/tech-wrld.png);
     background-size: initial;
 }
+#knowhardware{
+    background-image: url(./images/hardware.jpg);
+    background-size: contain;
+    font-weight: 200;
+}
