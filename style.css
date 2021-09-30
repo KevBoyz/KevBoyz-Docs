@@ -39,13 +39,14 @@ header {
     width: 100%;
     margin-top: 20px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 #main-content {
-    width: 41%;
-    margin: 0 20px 0 70px;
+    width: 40%;
+    margin: 0 20px 0 80px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 #sub-content {
     width: 50%;
@@ -67,7 +68,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 .content-box #text div {
     background-color: #0000009d;
